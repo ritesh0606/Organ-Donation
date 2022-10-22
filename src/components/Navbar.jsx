@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
         <nav className="navbar navbar-expand-lg navbar-light shadow">
         <div className="container">
-          <NavLink className="navbar-brand" to="#">Navbar</NavLink>
+          <NavLink className="navbar-brand" to="#">Organ Donation</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -19,13 +19,13 @@ const Navbar = () => {
                 <NavLink className="nav-link" to="/about">About</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/service">Services</NavLink>
+                <NavLink className="nav-link" to="/service">Know Organ Donation</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">Contact</NavLink>
               </li>  
             </ul>
-            <NavLink className="navbar-className fw-bolder fs-4 mx-auto" to="#">Navbar</NavLink>
+           
             
            {/* <button className="btn btn-outline-primary ms-auto px-4 rounded-pill">
                <i className="fa fa-sign-sign-in me-2"></i>Login</button>

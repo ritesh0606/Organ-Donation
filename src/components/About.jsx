@@ -13,15 +13,7 @@ const About = () => {
                         <h3 className="fs-5 mb-0">About Us</h3>
                         <h1 className="display-6 mb-2">Who <b>We</b> Are</h1>
                         <hr className="w-50"/>
-                        <p className="lead mb-4">Lorem ipsum, vugeiurgfbebvudvbubv
-                        eibvibvirbvrb ivbreibt iirvbribrkdb vrb ivkrb ibieib
-                        hubfudbvrebvrbeignbireinwbiiesbuqbwbieff
-                        huebvebibgvebviebeiviievjerivbvibveviek vie
-                        hebviebvgiebcb knfosvrghnovvniihbe ibgie
-                        bfebiwbrfi  jibiwbfq  iurffinor wrirbifwfbubu
-                        fuegf rufeurgf  yugfrerubrifegbegb reirerugb ruerbbrue
-                        bvuerbeur bfrgifqi rufufwff gufyurfur uyfuwff yugfrerubrifegbegb
-                        bhvehbebfsbi bfibfi  ifbifbi ibrfiqai bireii </p>
+                        <p className="lead mb-4">Our website takes the lead in online donor pledges and is now dominating the online space for pledges. Our form is easy to fill and submit on the website, and the donor cards are couriered to all parts of India. We take pride in sending donor cards within 4 weeks to everyone who has taken the brave decision to pledge their organs, no matter where in India they are </p>
                         <button className="btn btn-primary rounded-pill px-4 py-2">Get Started</button>
                         <button className="btn btn-outline-primary rounded-pill px-4 py-2 ms-2">Get Started</button>
                      </div>

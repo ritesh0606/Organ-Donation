@@ -1,11 +1,10 @@
-/* eslint-disable jsx-a11y/heading-has-content */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useNavigate } from 'react-router';
 
 const Organ = () => {
 
-  const history = useNavigate()
+  const navigate = useNavigate()
 
   const [user, setUser] = useState({
     username : "",
@@ -32,7 +31,7 @@ const Organ = () => {
       // Which is Front End but we need to 
       // Submit it on Backend which is on 
       // Port 3001. So we need Proxy.
-      const res = await fetch('/register', {
+      const res = await fetch('/organ', {
         method : "POST",
         headers : {
           "Content-Type" : "application/json"
@@ -48,7 +47,7 @@ const Organ = () => {
         // You need to Restart the Server for Proxy Works
         // Now Try Again
         window.alert("Registered Successfully");
-        history.push('/login')
+        navigate.push('/donar')
       }
     } catch (error) {
       console.log(error);
@@ -137,7 +136,6 @@ const Organ = () => {
 }
 
 export default Organ;
-
 
 // /* eslint-disable jsx-a11y/heading-has-content */
 // /* eslint-disable no-restricted-globals */

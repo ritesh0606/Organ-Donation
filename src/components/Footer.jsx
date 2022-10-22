@@ -26,10 +26,10 @@ return (
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<FooterLink href="#">Lungs</FooterLink>
+			<FooterLink href="#">Kidney</FooterLink>
+			<FooterLink href="#">Liver</FooterLink>
+			<FooterLink href="#">Heart</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>

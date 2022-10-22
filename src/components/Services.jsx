@@ -8,7 +8,7 @@ const Services = () => {
                     <div className="row">
                         <div className="col-12">
                             <h3 className="fs-5 text-center mb-0">Our Services</h3>
-                            <h1 className="dispaly-6 text-center mb-4">Our <b>Awesome</b> Services</h1>
+                            <h1 className="dispaly-6 text-center mb-4">Know <b>Organ</b> Donation</h1>
                             <hr className="w-25 mx-auto" />
                         </div>
                     </div>
@@ -17,7 +17,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customizable</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Kidney Donation</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-mobile fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">Fully Responsive Layout</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Lungs Donation</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-users fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">User Experience</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Heart Donation</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-laptop fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">Creative Web Design</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Eyes Donation</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-file-code-o fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">Unique and Clean</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Liver Donation</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ const Services = () => {
                             <div class="card p-3" >
                                 <div class="card-body text-center">
                                     <i className="fa fa-star-half-o fa-4x mb-4 text-primary"></i>
-                                    <h5 class="card-title mb-3 fs-4 fw-bold">Creative Ideas</h5>
+                                    <h5 class="card-title mb-3 fs-4 fw-bold">Save Others</h5>
                                     <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
