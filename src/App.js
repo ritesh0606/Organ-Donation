@@ -7,7 +7,15 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Donor from './components/Apply';
 import Organ from './components/Organ';
+import Kidney from './components/Kidney';
 import {Routes, Route} from 'react-router';
+import Lungs from './components/Lungs';
+import Heart from './components/Heart';
+import Eye from './components/Eye';
+import Liver from './components/Liver';
+import Ngo from './components/Ngo';
+import Laws from './components/Laws';
+
 
 
 function App() {
@@ -24,6 +32,16 @@ function App() {
         <Route  path="/contact" element={<Contact/>} />
         <Route path="/donor" element={<Donor />} />
         <Route path="/organ" element={<Organ />} />
+        <Route path="/kidney" element={<Kidney />} />
+        <Route path="/lungs" element={<Lungs />} />
+        <Route path="/heart" element={<Heart />} />
+        <Route path="/eye" element={<Eye />} />
+        <Route path="/liver" element={<Liver />} />
+        <Route path="/ngo" element={<Ngo />} />
+        <Route path="/laws" element={<Laws />} />
+
+
+
        
       </Routes>
       <Home/>

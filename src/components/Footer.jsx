@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
 Box,
 Container,
@@ -26,10 +27,10 @@ return (
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Lungs</FooterLink>
-			<FooterLink href="#">Kidney</FooterLink>
-			<FooterLink href="#">Liver</FooterLink>
-			<FooterLink href="#">Heart</FooterLink>
+			<FooterLink href="lungs">Lungs</FooterLink>
+			<FooterLink href="kidney">Kidney</FooterLink>
+			<FooterLink href="liver">Liver</FooterLink>
+			<FooterLink href="heart">Heart</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>

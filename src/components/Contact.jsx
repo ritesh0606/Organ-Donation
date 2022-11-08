@@ -25,7 +25,7 @@ const Contact = () => {
             <from action="">
               <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Ritesh is mad" />
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" />
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
