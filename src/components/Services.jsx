@@ -1,4 +1,6 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
+
 
 const Services = () => {
     return (
@@ -20,7 +22,9 @@ const Services = () => {
                                  
                                     <h5 class="card-title mb-3 fs-3 fw-bold">Kidney Donation</h5>
                                     <p class="card-text lead">Hundreds of thousands of people suffer from renal failure each year and undergo dialysis or await a kidney transplant.</p>
-                                </div>
+                                    <NavLink to="/kidney" className="btn btn-outline-light rounded-pill pb-2 w-50">Click Here </NavLink>
+                                                                   
+                                    </div>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -28,8 +32,9 @@ const Services = () => {
                                 <div class="card-body text-center">
                                 <img src="/assets/lungs.png" alt="Services" />
                                    <h5 class="card-title mb-3 fs-4 fw-bold"><br></br>Lungs Donation</h5>
-                                    <p class="card-text lead">A lung transplant is a surgery to remove a person’s diseased lung and replace it with a healthy lung from a deceased donor.</p>
-                                </div>
+                                   <p class="card-text lead">A lung transplant is a surgery to remove a person’s diseased lung and replace it with a healthy lung from a deceased donor.</p>
+                                   <NavLink to="/lungs" className="btn btn-outline-light rounded-pill pb-2 w-50">Click Here </NavLink>          
+                                   </div>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -38,6 +43,7 @@ const Services = () => {
                                 <img src="/assets/heart.png" alt="Services" />
                                     <h5 class="card-title mb-3 fs-4 fw-bold">Heart Donation</h5>
                                     <p class="card-text lead">Heart transplants are done soon after brain death of the donor is determined. Machines keep the heart and other organs functioning until the transplant teams arrive.</p>
+                                    <NavLink to="/heart" className="btn btn-outline-light rounded-pill pb-2 w-50">Click Here </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -47,6 +53,7 @@ const Services = () => {
                                 <img src="/assets/eye.png" alt="Services" />
                                     <h5 class="card-title mb-3 fs-4 fw-bold">Eyes Donation</h5>
                                     <p class="card-text lead">Donated eyes can be used to restore vision in people who are suffering from corneal blindness. The front, clear and transparent tissue of the eye called as cornea can be used to restore vision in a corneal blind person</p>
+                                    <NavLink to="/eye" className="btn btn-outline-light rounded-pill pb-2 w-50">Click Here </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -56,6 +63,7 @@ const Services = () => {
                                 <img src="/assets/liver.png" alt="Services" />
                                     <h5 class="card-title mb-3 fs-4 fw-bold">Liver Donation</h5>
                                     <p class="card-text lead">Liver transplantation is the universal treatment for end-stage chronic liver disease (ESLD) or cirrhosis, and is a life-saving operation for patients with acute liver failure</p>
+                                    <NavLink to="/liver" className="btn btn-outline-light rounded-pill pb-2 w-50">Click Here </NavLink>
                                 </div>
                             </div>
                         </div>
